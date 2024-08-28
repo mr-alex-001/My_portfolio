@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="bg-black w-full h-15 fixed">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="flex flex-1 items-center justify-between sm:justify-end">
+                    <a href="#about" style="font-family: Mochiy Pop One, system-ui;" class="font-bold text-2xl text-white">ALEX</a>
+                    <div class="sm:hidden">
+                        <!-- Mobile menu button-->
+                        <button id="mobile-menu-button" class="text-gray-400 focus:outline-none focus:ring-2 focus:ring-white">
+                            <!-- Menu icon when closed -->
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                            <!-- Close icon when open -->
+                            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="hidden sm:flex sm:space-x-4 absolute right-0">
+                        <!-- Desktop Menu -->
+                        <a href="#home" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+                        <a href="#about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+                        <a href="#experience" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
+                        <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+                        <a href="#projects" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+                        <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 bg-gray-700 text-white">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu, initially hidden -->
+        <div id="mobile-menu" class="hidden sm:hidden px-2 pt-2 pb-3 space-y-1">
+            <a href="#home" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+            <a href="#about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+            <a href="#experience" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
+            <a href="#skills" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+            <a href="#projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+            <a href="#contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="relative h-screen parallax-bg flex items-center justify-center bg-cover bg-center">
+        <div style="font-family: caveat, system-ui;" class="parallax-text text-white text-4xl sm:text-7xl font-bold text-center">
+            <span id="parallax">HELLO GUYS</span><br>
+            <span id="wel">Welcome to my portfolio</span><br>
+            <a href="#about" class="mt-4 inline-flex items-center justify-center px-6 py-2 text-base font-bold text-center text-white border border-gray-300 rounded-lg hover:bg-gray-600 focus:ring-4 focus:ring-gray-100">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const icons = menuButton.getElementsByTagName('svg');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            icons[0].classList.toggle('hidden');
+            icons[1].classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
