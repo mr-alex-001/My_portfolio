@@ -11,13 +11,12 @@
 
 <body>
  <!-- nav bar -->
-<nav class="bg-black w-full h-15 fixed">
+ <nav id="nav" class="bg-black w-full fixed top-0 z-10">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <!-- Mobile menu button -->
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <button type="button" class="hamburger relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="menu" aria-expanded="false">
-          <span class="absolute -inset-0.5"></span>
+        <button type="button" class="hamburger relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <!-- Icon when menu is closed -->
           <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -29,37 +28,34 @@
           </svg>
         </button>
       </div>
-        
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end ">
+
+      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <!-- Your logo or site name -->
+          <a id="alex" href="#about" class="text-white font-bold text-2xl" style="font-family: Mochiy Pop One, system-ui;">ALEX</a>
         </div>
-        <div class="sm:ml-6 sm:block absolute right-0">
-          <div class="flex space-x-4">
-            <!-- Navigation links -->
-            <a href="#about" style="font-family: Mochiy Pop One, system-ui;" class="font-bold text-2xl text-white rtl: prefix font-mino">
-              <span style="margin-right: 600px;">ALEX</span>
-            </a>
-            <a href="#home" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
-            <a href="#about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-            <a href="#experience" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
-            <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
-            <a href="#projects" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-            <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 bg-gray-700 text-white">Contact</a>
-          </div>
+      </div>
+
+      <div class="hidden sm:block sm:ml-6">
+        <div class="flex space-x-4">
+          <a href="#home" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+          <a href="#about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+          <a href="#experience" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
+          <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+          <a href="#projects" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+          <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 bg-gray-700 text-white">Contact</a>
         </div>
       </div>
     </div>
   </div>
-  
+
   <!-- Mobile menu, show/hide based on menu state. -->
-  <div class="sm:hidden" id="menu">
+  <div class="sm:hidden" id="mobile-menu" class="hidden">
     <div class="space-y-1 px-2 pb-3 pt-2">
-      <!-- Mobile navigation links -->
       <a href="#home" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
       <a href="#about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
       <a href="#experience" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
       <a href="#skills" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+      <a href="#projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
       <a href="#contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
     </div>
   </div>
@@ -67,7 +63,9 @@
 
 
 
-home section
+
+
+<!-- home section -->
 
       <section id="home" class="relative h-screen parallax-bg flex items-center justify-center">
         
