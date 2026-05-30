@@ -4,20 +4,53 @@ import './HomeMobile.css';
 function HomeMobile() {
   return (
     <section id="home" className="home-section">
-      {/* Video Background */}
-      <div className="video-background">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="background-video"
-        >
-          <source src="/Bg_looping_vid.mp4" type="video/mp4" />
-        </video>
-        <div className="video-overlay"></div>
+      {/* Premium Network Graph Background */}
+      <div className="bg-grid">
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
+        <div className="grid-line"></div>
       </div>
-
+      
+      <div className="bg-nodes">
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+        <div className="node"></div>
+      </div>
+      
+      <div className="bg-connections">
+        <div className="connection"></div>
+        <div className="connection"></div>
+        <div className="connection"></div>
+        <div className="connection"></div>
+      </div>
+      
+      <div className="bg-particles">
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+        <div className="data-particle"></div>
+      </div>
+      
+      <div className="bg-shapes">
+        <div className="shape shape-1"></div>
+        <div className="shape shape-2"></div>
+        <div className="shape shape-3"></div>
+        <div className="shape shape-4"></div>
+      </div>
+      
       <div className="container">
         <div className="home-content">
           <div className="home-text">
@@ -36,7 +69,7 @@ function HomeMobile() {
                 <span className="static-text">I'm a </span>
                 <div className="dynamic-text-wrapper">
                   <span className="dynamic-text">
-                    {/* Cyber Forensics Student */}
+                    {/* Text content handled by CSS animation */}
                   </span>
                 </div>
               </div>
@@ -84,16 +117,34 @@ function HomeMobile() {
           
           <div className="home-visual">
             <div className="profile-container">
+              {/* Premium Glowing Orbs */}
+              <div className="orb orb-1"></div>
+              <div className="orb orb-2"></div>
+              <div className="orb orb-3"></div>
+              
               <div className="profile-shape">
+                {/* Shine Sweep Overlay */}
+                <div className="shine-sweep"></div>
+                
+                {/* Sparkle Effects */}
+                <div className="profile-overlay-effects">
+                  <div className="sparkle"></div>
+                  <div className="sparkle"></div>
+                  <div className="sparkle"></div>
+                  <div className="sparkle"></div>
+                  <div className="sparkle"></div>
+                </div>
+                
                 <div className="profile-image-wrapper">
                   <img
                     src="/WhatsApp Image 2024-08-26 at 1.40.39 PM.jpeg"
                     alt="Alex Renny - Portfolio"
                     className="profile-image"
                   />
-                  <div className="image-glow"></div>
                 </div>
               </div>
+              
+              {/* Premium Floating Cards */}
               <div className="floating-card card-1">
                 <div className="card-icon">💻</div>
                 <div className="card-text">
@@ -101,16 +152,13 @@ function HomeMobile() {
                   <strong>Freelance</strong>
                 </div>
               </div>
+              
               <div className="floating-card card-2">
                 <div className="card-text">
                   <small>Cyber Forensics</small>
                   <strong>Student</strong>
                 </div>
               </div>
-              <div className="particle particle-1"></div>
-              <div className="particle particle-2"></div>
-              <div className="particle particle-3"></div>
-              <div className="particle particle-4"></div>
             </div>
           </div>
         </div>
@@ -127,8 +175,3 @@ function HomeMobile() {
 }
 
 export default HomeMobile;
-
-
-
-
-
