@@ -717,7 +717,7 @@
   position: absolute;
   background: rgba(15, 18, 30, 0.8);
   backdrop-filter: blur(30px) saturate(180%);
-  padding: 16px 20px;
+  padding: 10px 10px;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -799,7 +799,7 @@
   animation-play-state: paused;
 }
 
-.card-icon {
+/* .card-icon {
   font-size: 24px;
   width: 48px;
   height: 48px;
@@ -819,7 +819,7 @@
   inset: 0;
   background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.1));
   border-radius: 14px;
-}
+} */
 
 .card-text small {
   display: block;

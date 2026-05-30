@@ -146,7 +146,7 @@ function HomeMobile() {
               
               {/* Premium Floating Cards */}
               <div className="floating-card card-1">
-                <div className="card-icon">💻</div>
+                {/* <div className="card-icon">💻</div> */}
                 <div className="card-text">
                   <small>Available for</small>
                   <strong>Freelance</strong>

@@ -143,7 +143,7 @@ function Home() {
               
               <div className="floating-card card-1">
                 <div className="card-icon-wrapper">
-                  <span className="card-emoji">💻</span>
+                  {/* <span className="card-emoji">💻</span> */}
                 </div>
                 <div className="card-text">
                   <small>Available for</small>
@@ -153,7 +153,7 @@ function Home() {
               
               <div className="floating-card card-2">
                 <div className="card-icon-wrapper">
-                  <span className="card-emoji">🔒</span>
+                  {/* <span className="card-emoji">🔒</span> */}
                 </div>
                 <div className="card-text">
                   <small>Cyber Forensics</small>
