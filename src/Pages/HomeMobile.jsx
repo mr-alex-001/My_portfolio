@@ -137,7 +137,7 @@ function HomeMobile() {
                 
                 <div className="profile-image-wrapper">
                   <img
-                    src="/WhatsApp Image 2024-08-26 at 1.40.39 PM.jpeg"
+                    src="/MobileHome_image.png"
                     alt="Alex Renny - Portfolio"
                     className="profile-image"
                   />
