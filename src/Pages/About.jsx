@@ -87,13 +87,13 @@ function About() {
               <p className="description-text">
                 I'm a passionate web developer and 
                 <span className="text-highlight"> Cyber Forensics student </span> 
-                with a keen eye for design. Based in India, I specialize in building modern, 
-                responsive web applications that solve real-world problems.
+                with a focus on Cyber Security, Game Development, and Web Development.
+                My academic path is driven by a strong interest in how technology works, how systems can be secured, and how digital experiences are built.
               </p>
               <p className="description-text secondary">
-                With expertise in both frontend and backend technologies, I bring ideas to life 
-                through clean code and intuitive design. Every project is an opportunity to create 
-                something extraordinary.
+                I have hands-on experience with HTML, CSS, JavaScript, and front-end design, creating responsive and user-focused web interfaces. 
+                I enjoy turning ideas into functional designs while continuously improving my coding practices and understanding of modern development tools.
+
               </p>
             </div>
             
@@ -107,7 +107,7 @@ function About() {
                   </svg>
                 </div>
                 <div className="skill-info">
-                  <h4>Full Stack Development</h4>
+                  <h4>Front-end Design</h4>
                   <p>End-to-end web solutions with modern tech stack</p>
                 </div>
               </div>

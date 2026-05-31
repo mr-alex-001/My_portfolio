@@ -76,7 +76,7 @@
 }
 
 /* Network Nodes */
-.hm-bg-nodes {
+/* .hm-bg-nodes {
   position: absolute;
   top: 0;
   left: 0;
@@ -115,7 +115,7 @@
     transform: scale(1.5);
     opacity: 1;
   }
-}
+} */
 
 /* Connection Lines */
 .hm-bg-connections {
@@ -181,7 +181,7 @@
 }
 
 /* Data Flow Particles */
-.hm-bg-particles {
+/* .hm-bg-particles {
   position: absolute;
   top: 0;
   left: 0;
@@ -263,7 +263,7 @@
     transform: translateX(calc(100vw)) translateY(100px);
     opacity: 0;
   }
-}
+} */
 
 /* Floating Geometric Shapes */
 .hm-bg-shapes {
@@ -707,7 +707,7 @@
 }
 
 /* Shine Sweep Effect */
-.hm-shine-sweep {
+/* .hm-shine-sweep {
   position: absolute;
   top: 0;
   left: -100%;
@@ -733,10 +733,10 @@
   20%, 100% {
     left: 200%;
   }
-}
+} */
 
 /* Sparkle Effects */
-.hm-profile-overlay-effects {
+/* .hm-profile-overlay-effects {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -792,7 +792,7 @@
     opacity: 1;
     transform: scale(1) rotate(180deg);
   }
-}
+} */
 
 /* Floating Cards */
 .hm-floating-card {
