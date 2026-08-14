@@ -38,11 +38,24 @@ function Projects() {
 
   const projects = [
     {
+      id: 6,
+      title: 'ReSender-A Web Application Chatapp',
+      description: 'A custom React component library with accessible, themeable, and reusable components.',
+      image: 'Screenshot 2026-08-14 102613.png',
+      category: 'Web Apps',
+      technologies: ['React', 'Storybook', 'TypeScript'],
+      links: {
+        github: 'https://github.com/alex-renny/ChatVerse',
+        live: 'https://chat-verse-blond.vercel.app'
+      },
+      featured: false
+    },
+    {
       id: 1,
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React and advanced animations.',
       image: './Portfolio.png',
-      category: 'Web Apps',
+      category: 'UI/UX',
       technologies: ['React', 'CSS3', 'JavaScript'],
       links: {
         github: 'https://github.com/alex-renny/My_portfolio',
@@ -55,7 +68,7 @@ function Projects() {
       title: 'E-Com Website',
       description: 'A modern e-commerce platform featuring product browsing, shopping cart functionality, secure user authentication, and a responsive design for seamless online shopping experiences.',
       image: './Ecom.png',
-      category: 'Web Apps',
+      category: 'UI/UX',
       technologies: ['Python', 'SQLite', 'Django'],
       links: {
         github: 'https://github.com/alex-renny/Ecom',
@@ -68,7 +81,7 @@ function Projects() {
       title: 'Video Website',
       description: 'A platform where you can upload your vlogs,shots and content videos.',
       image: './VideoWeb.png',
-      category: 'Web Apps',
+      category: 'UI/UX',
       technologies: ['React', 'Node.js', 'MongoDB'],
       links: {
         github: 'https://github.com/alex-renny/Anivortex',
@@ -81,7 +94,7 @@ function Projects() {
       title: 'Valentines Web',
       description: 'A Website where you can see the competition modules and register interface.',
       image: './Valentine.png',
-      category: 'Web Apps',
+      category: 'UI/UX',
       technologies: ['Python', 'Nmap', 'FastAPI'],
       links: {
         github: 'https://github.com/alex-renny/Valentine-s-Web2.0',
@@ -94,7 +107,7 @@ function Projects() {
       title: 'Event Webpage',
       description: 'A webpage where you can see the Upcoming program details.',
       image: 'Event_Web.png',
-      category: 'Web Apps',
+      category: 'UI/UX',
       technologies: ['Next.js', 'Firebase', 'Tailwind'],
       links: {
         github: 'https://github.com/alex-renny/Event-Project',
@@ -102,19 +115,6 @@ function Projects() {
       },
       featured: false
     },
-    // {
-    //   id: 6,
-    //   title: 'UI Component Library',
-    //   description: 'A custom React component library with accessible, themeable, and reusable components.',
-    //   image: 'https://images.unsplash.com/photo-1613909207039-6b173b4df477?w=600&h=400&fit=crop',
-    //   category: 'UI/UX',
-    //   technologies: ['React', 'Storybook', 'TypeScript'],
-    //   links: {
-    //     github: 'https://github.com/yourusername/ui-library',
-    //     live: 'https://ui-library-demo.vercel.app'
-    //   },
-    //   featured: false
-    // }
   ];
 
   const filteredProjects = activeFilter === 'All' 
