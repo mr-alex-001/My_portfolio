@@ -40,7 +40,7 @@ function Projects() {
     {
       id: 6,
       title: 'ReSender-A Web Application Chatapp',
-      description: 'A custom React component library with accessible, themeable, and reusable components.',
+      description: 'A modern Web Application with userfriendly design and security where you can communicate through messages,voice mails,images.. securely',
       image: 'Screenshot 2026-08-14 102613.png',
       category: 'Web Apps',
       technologies: ['React', 'Storybook', 'TypeScript'],
